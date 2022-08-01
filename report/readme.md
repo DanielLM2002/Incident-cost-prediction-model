@@ -9,3 +9,21 @@ Pandas was used to create the dataframe that contains the data and numpy to resh
 In the notebook you would be able to see the dataframe and the linear regression model.
 
 In my case when the model mas executed i got the following plot results of data generated.
+
+![First plot generated](https://github.com/DanielLM2002/Incident-cost-prediction-model/blob/main/images/Screen%20Shot%202022-07-31%20at%2011.13.16%20PM.png)
+
+This data dosent seem to be very eye friendly, but it does seem to be a good representation of the data.
+
+Lets scale it up to see if we can get a better representation of the data.
+
+![More readable data](https://github.com/DanielLM2002/Incident-cost-prediction-model/blob/main/images/Screen%20Shot%202022-07-31%20at%2011.13.57%20PM.png)
+
+Now that the data seems more appropriate, we can use the model to predict the cost of a certain amount of damaged equipment.
+
+Now we can train the model with that data and get a prediction for the minimun and maximum cost of the equipment.
+
+![Prediction of the price](https://github.com/DanielLM2002/Incident-cost-prediction-model/blob/main/images/Screen%20Shot%202022-07-31%20at%2011.14.14%20PM.png)
+
+As we can see the prediction adjust itself to theta0 and theta1.
+
+
